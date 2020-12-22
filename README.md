@@ -24,7 +24,7 @@ system info:
 ## Installing
 use virtual environment python: 
 ```bash
-python3 -m venv yourvenv
+python3.6 -m venv yourvenv
 ```
 Activate virtual environment:
 ```bash
@@ -36,7 +36,7 @@ pip install --upgrade pip
 ```
 install requirements:
 ```bash
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 
