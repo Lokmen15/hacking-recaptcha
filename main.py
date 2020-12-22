@@ -3,7 +3,7 @@ python script that hacks the recaptcha test.
 
 usage: 
 
-    $ python3 main.py  
+    $ python3 main.py  --port YOURPORT
 
 """
 
@@ -20,6 +20,7 @@ parser.add_argument("--port", help="set your port",type=int)
 args = parser.parse_args()
 
 link_to_natigate = "http://localhost:"+str(args.port)+"/"
+
 button_submit_xpath = '//*[@id="root"]/div/div/div/button'
 
 
