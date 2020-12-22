@@ -1,4 +1,4 @@
-#Recaptche passing using selenium and object detection
+# Recaptche passing using selenium and object detection
 
 This script dowload automaticly the images of recaptcha. Passes the images to a model which detects whether there's a bus or not
 
@@ -19,12 +19,16 @@ system info:
 
 - python 3.6.9
 
--
+
 
 ## Installing
-use a virtual env: 
+use virtual environment python: 
 ```bash
 python3 -m venv yourvenv
+```
+Activate virtual environment:
+```bash
+source yourvenv/bin/activate
 ```
 update pip:
 ```bash
