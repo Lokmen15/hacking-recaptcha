@@ -7,7 +7,9 @@ After this using selenium we control the browser and select the right images and
 
 We are using selenium with Google Chrome, so we need a chromedriver. Please check the exact version of your chrome and download the right 
 
-chrome driver from this page: https://chromedriver.chromium.org/downloads
+chrome driver from this page: https://chromedriver.chromium.org/downloads     
+
+After downloading the chromedriver please replace it with the one already existing.
 
 Also please download the RetinaNet model file that will be used for object detection via this:
 
