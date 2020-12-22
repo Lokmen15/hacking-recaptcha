@@ -44,6 +44,11 @@ pip3 install -r requirements.txt
 
 
 ## usage
+
+```bash
+sudo docker run -p YOURPORT:80 impossiblemandrill/inrview_test
+```
+
 ```bash
 python3 main.py --port YOURPORT
 ```
